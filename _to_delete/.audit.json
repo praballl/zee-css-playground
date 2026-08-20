@@ -1,0 +1,18 @@
+{
+  "missing": [
+    "bg-[#0f766e]",
+    "bg-[#14b8a6]",
+    "bg-[#fdf2f0]",
+    "bg-slate-50",
+    "border-[#14b8a6]",
+    "border-indigo-500",
+    "border-transparent",
+    "leading-snug",
+    "text-[#e74c3c]"
+  ],
+  "unresolved": [
+    "border-l-4",
+    "flex-col",
+    "lg:border-b-0"
+  ]
+}

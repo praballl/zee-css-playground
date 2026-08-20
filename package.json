@@ -3,24 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "zee:build": "node node_modules/@zee-css/cli/dist/index.js . -o src/app/zee.css",
+    "zee:build:min": "node node_modules/@zee-css/cli/dist/index.js . -o src/app/zee.css --minify",
+    "zee:watch": "node node_modules/@zee-css/cli/dist/index.js . -o src/app/zee.css --watch",
+    "zee:audit": "node scripts/zee-audit.mjs",
+    "dev": "npm run zee:build && next dev",
+    "build": "npm run zee:build:min && next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@zee-css/core": "^1.1.0",
     "next": "16.3.1",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@zee-css/cli": "^1.1.0",
     "eslint": "^9",
     "eslint-config-next": "16.3.1",
-    "tailwindcss": "^4",
+    "glob": "^13.0.6",
     "typescript": "^5"
   }
 }

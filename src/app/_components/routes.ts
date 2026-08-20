@@ -1,0 +1,15 @@
+export const ROUTES: { href: string; label: string; blurb: string }[] = [
+  { href: "/", label: "Overview", blurb: "Install & quick start" },
+  { href: "/spacing", label: "Spacing", blurb: "Padding, margin, space, RTL" },
+  { href: "/layout", label: "Layout", blurb: "Display, flex, position, sizing" },
+  { href: "/grid", label: "Grid", blurb: "CSS Grid, 12-col, gap" },
+  { href: "/typography", label: "Typography", blurb: "Scale, weight, wrapping" },
+  { href: "/colors", label: "Colors", blurb: "242 shades + theme tokens" },
+  { href: "/backgrounds", label: "Backgrounds", blurb: "Position, clip, gradients" },
+  { href: "/effects", label: "Effects", blurb: "Shadow, ring, filter, border" },
+  { href: "/transforms", label: "Transforms", blurb: "Transition, transform, animate" },
+  { href: "/interactivity", label: "Interactivity", blurb: "Cursor, scroll, snap, SVG" },
+  { href: "/variants", label: "Variants", blurb: "Responsive, state, dark, print" },
+  { href: "/arbitrary", label: "Arbitrary", blurb: "[values] and !important" },
+  { href: "/api", label: "Programmatic API", blurb: "generateCSS, colors, breakpoints" },
+];
