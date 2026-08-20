@@ -1,4 +1,4 @@
-# zee-css live docs — Next.js portfolio
+# zee-css live docs — Next.js zee-css-playground
 
 A Next.js 16 App Router site that documents every utility in
 [zee-css](https://www.npmjs.com/package/@zee-css/core) (v1.1.0) and is itself styled

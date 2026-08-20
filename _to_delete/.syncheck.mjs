@@ -1,4 +1,4 @@
-import ts from "/sessions/rcw-01lh1w3t7ddhptorvpg4bar7/mnt/portfolio/node_modules/typescript/lib/typescript.js";
+import ts from "/sessions/rcw-01lh1w3t7ddhptorvpg4bar7/mnt/zee-css-playground/node_modules/typescript/lib/typescript.js";
 import { readFileSync, existsSync } from "node:fs";
 import { glob } from "glob";
 import path from "node:path";
